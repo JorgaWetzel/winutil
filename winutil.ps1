@@ -7744,6 +7744,14 @@ $sync.configs.applications = '{
 		"link": "https://pyenv-win.github.io/pyenv-win/",
 		"winget": "na"
 	}
+	"WPFInstalloneICT": {
+		"category": "oneICT",
+		"choco": "kikartei",
+		"content": "KiKartei OneICT",
+		"description": "KiKartei OneICT",
+		"link": "https://chocoserver:8443/#browse/browse:ChocolateyInternal:kikartei",
+		"winget": "na"
+	}
 }' | convertfrom-json
 $sync.configs.dns = '{
     "Google":{
