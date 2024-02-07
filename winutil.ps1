@@ -7749,7 +7749,7 @@ $sync.configs.applications = '{
 		"choco": "kikartei",
 		"content": "KiKartei OneICT",
 		"description": "KiKartei OneICT",
-		"link": "https://chocoserver:8443/#browse/browse:ChocolateyInternal:kikartei",
+		"link": "https://kikartei.ch/",
 		"winget": "na"
 	}
 }' | convertfrom-json
