@@ -9,7 +9,7 @@
 .NOTES
     Author         : Chris Titus @christitustech
     Runspace Author: @DeveloperDurp
-    GitHub         : https://github.com/ChrisTitusTech
+    GitHub         : https://github.com/JorgaWetzel
     Version        : 24.02.06
 #>
 param (
@@ -244,7 +244,7 @@ function Get-Oscdimg {
         $oscdimgPath = "$env:TEMP\oscdimg.exe"
     )
     
-    $downloadUrl = "https://github.com/ChrisTitusTech/winutil/raw/main/releases/oscdimg.exe"
+    $downloadUrl = "https://github.com/JorgaWetzel/winutil/raw/main/releases/oscdimg.exe"
     Invoke-RestMethod -Uri $downloadUrl -OutFile $oscdimgPath
     $hashResult = Get-FileHash -Path $oscdimgPath -Algorithm SHA256
     $sha256Hash = $hashResult.Hash
@@ -3079,7 +3079,7 @@ function Invoke-WPFGetIso {
         # @ChrisTitusTech  please copy this wiki and change the link below to your copy of the wiki
         Write-Error "Failed to mount the image. Error: $($_.Exception.Message)"
         Write-Error "This is NOT winutil's problem, your ISO might be corrupt, or there is a problem on the system"
-        Write-Error "Please refer to this wiki for more details https://github.com/ChrisTitusTech/winutil/blob/main/wiki/Error-in-Winutil-MicroWin-during-ISO-mounting%2Cmd"
+        Write-Error "Please refer to this wiki for more details https://github.com/JorgaWetzel/winutil/blob/main/wiki/Error-in-Winutil-MicroWin-during-ISO-mounting%2Cmd"
         return
     }
     # storing off values in hidden fields for further steps
@@ -11360,7 +11360,7 @@ Author   : @christitustech
 Runspace : @DeveloperDurp
 GUI      : @KonTy
 MicroWin : @KonTy
-GitHub   : https://github.com/ChrisTitusTech/winutil
+GitHub   : https://github.com/JorgaWetzel/winutil
 Version  : $($sync.version)
 "@
     Show-CustomDialog -Message $authorInfo -Width 400
