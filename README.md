@@ -1,4 +1,4 @@
-# Tech's Windows Utility
+# Chris Titus Tech's Windows Utility
 
 This utility is a compilation of Windows tasks I perform on each Windows system I use. It is meant to streamline *installs*, debloat with *tweaks*, troubleshoot with *config*, and fix Windows *updates*. I am extremely picky about any contributions to keep this project clean and efficient. 
 
@@ -34,7 +34,7 @@ Courtesy of the issue raised at: [#144](/../../issues/144)
 if for some reason this site is not reachable from your country please try running it directly from github
 
 ```
-irm https://raw.githubusercontent.com/JorgaWetzel/winutil/main/winutil.ps1 | iex
+irm https://raw.githubusercontent.com/ChrisTitusTech/winutil/main/winutil.ps1 | iex
 ```
 
 #### Automation
