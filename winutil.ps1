@@ -6799,7 +6799,7 @@ $sync.configs.applications = '{
 		"winget": "na"
 	},
 	"WPFInstallkikartei": {
-		"category": "Development",
+		"category": "Browsers",
 		"choco": "kikartei",
 		"content": "kikartei",
 		"description": "pyenv for Windows is a simple python version management tool. It lets you easily switch between multiple versions of Python.",
