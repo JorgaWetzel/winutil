@@ -6799,11 +6799,11 @@ $sync.configs.applications = '{
 		"winget": "na"
 	},
 	"WPFInstallkikartei": {
-		"category": "Browsers",
+		"category": "Development",
 		"choco": "kikartei",
 		"content": "kikartei",
-		"description": "Unsere KiKartei ist massgeschneidert f??r Ihre kirchlichen Anforderungen",
-		"link": "https://kikartei.ch/",
+		"description": "pyenv for Windows is a simple python version management tool. It lets you easily switch between multiple versions of Python.",
+		"link": "https://pyenv-win.github.io/pyenv-win/",
 		"winget": "na"
 	}
 }' | convertfrom-json
