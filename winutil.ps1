@@ -7743,6 +7743,14 @@ $sync.configs.applications = '{
 		"description": "pyenv for Windows is a simple python version management tool. It lets you easily switch between multiple versions of Python.",
 		"link": "https://pyenv-win.github.io/pyenv-win/",
 		"winget": "na"
+	},
+	"WPFInstallkikartei": {
+		"category": "Development",
+		"choco": "kikartei",
+		"content": "Python Version Manager (pyenv-win)",
+		"description": "pyenv for Windows is a simple python version management tool. It lets you easily switch between multiple versions of Python.",
+		"link": "https://pyenv-win.github.io/pyenv-win/",
+		"winget": "na"
 	}
 }' | convertfrom-json
 $sync.configs.dns = '{
