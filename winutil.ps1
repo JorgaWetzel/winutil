@@ -7745,7 +7745,7 @@ $sync.configs.applications = '{
 		"winget": "na"
 	},
 	"WPFInstalloneICT": {
-		"category": "oneICT",
+		"category": "Development",
 		"choco": "kikartei",
 		"content": "KiKartei OneICT",
 		"description": "KiKartei OneICT",
